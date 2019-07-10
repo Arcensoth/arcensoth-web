@@ -100,18 +100,11 @@ export default class App extends Vue {
 
 .md-content {
   padding: 0 !important;
-  background: #eeeeee !important;
-}
-
-.md-layout {
-  background: #eeeeee !important;
 }
 
 .content-column {
-  // margin-top: 16px;
   width: 960px !important;
-  padding: 0 16px;
+  padding: 16px;
   height: 100%;
-  background: #fdfdfd;
 }
 </style>

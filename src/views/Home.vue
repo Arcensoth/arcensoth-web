@@ -1,9 +1,10 @@
 <template>
   <div class="md-layout md-alignment-top-center">
     <div class="md-layout-item"></div>
-    <div class="content-column md-elevation-2">
+    <div class="content-column">
       <img alt="Vue logo" src="../assets/logo.png" />
       <HelloWorld msg="Welcome to Your Vue.js + TypeScript App" />
+      <div style="height: 4000px;"></div>
     </div>
     <div class="md-layout-item"></div>
   </div>
