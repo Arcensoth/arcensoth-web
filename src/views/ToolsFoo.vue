@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h1>This is an about page</h1>
+    <h1>Welcome to foo</h1>
   </div>
 </template>
 
@@ -8,5 +8,5 @@
 import { Component, Vue } from "vue-property-decorator";
 
 @Component
-export default class About extends Vue {}
+export default class ToolsFoo extends Vue {}
 </script>
