@@ -27,9 +27,9 @@ export default new Router({
       component: () => import("./views/Tools.vue")
     },
     {
-      path: "/tools/foo",
-      name: "tools_foo",
-      component: () => import("./views/ToolsFoo.vue")
+      path: "/tools/imp",
+      name: "tools_imp",
+      component: () => import("./views/ToolsImp.vue")
     }
   ],
   linkActiveClass: "my-link-active-class"

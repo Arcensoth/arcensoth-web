@@ -2,7 +2,11 @@
   <div class="md-layout md-alignment-top-center">
     <div class="md-layout-item"></div>
     <div class="content-column">
-      <h1>These are my projects</h1>
+      <md-empty-state
+        md-icon="extension"
+        md-label="Under construction"
+        md-description="There is nothing to show here right now. Check back later!"
+      />
     </div>
     <div class="md-layout-item"></div>
   </div>

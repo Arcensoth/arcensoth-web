@@ -47,9 +47,7 @@
 
         <div v-show="showToolsSubmenu()" class="md-toolbar-row">
           <md-tabs class="md-primary" md-sync-route>
-            <md-tab id="tab-tools-foo" md-label="Foo" to="/tools/foo"></md-tab>
-            <md-tab id="tab-tools-bar" md-label="Bar" to="/tools/bar"></md-tab>
-            <md-tab id="tab-tools-baz" md-label="Baz" to="/tools/baz"></md-tab>
+            <md-tab id="tab-tools-imp" md-label="IMP Utilities" to="/tools/imp"></md-tab>
           </md-tabs>
         </div>
       </md-app-toolbar>
@@ -100,11 +98,20 @@ export default class App extends Vue {
 
 .md-content {
   padding: 0 !important;
+  border: 0 !important;
 }
 
 .content-column {
   width: 960px !important;
   padding: 16px;
   height: 100%;
+}
+
+.tool-container {
+  padding: 16px;
+}
+
+.md-empty-state {
+  margin: 120px;
 }
 </style>

@@ -2,9 +2,11 @@
   <div class="md-layout md-alignment-top-center">
     <div class="md-layout-item"></div>
     <div class="content-column">
-      <img alt="Vue logo" src="../assets/logo.png" />
-      <HelloWorld msg="Welcome to Your Vue.js + TypeScript App" />
-      <div style="height: 4000px;"></div>
+      <md-empty-state
+        md-icon="home"
+        md-label="Under construction"
+        md-description="There is nothing to show here right now. Check back later!"
+      />
     </div>
     <div class="md-layout-item"></div>
   </div>
@@ -12,12 +14,7 @@
 
 <script lang="ts">
 import { Component, Vue } from "vue-property-decorator";
-import HelloWorld from "@/components/HelloWorld.vue";
 
-@Component({
-  components: {
-    HelloWorld
-  }
-})
+@Component
 export default class Home extends Vue {}
 </script>
