@@ -56,7 +56,6 @@
 
       <md-app-content>
         <router-view />
-        <LoremIpsum />
       </md-app-content>
     </md-app>
   </div>
@@ -66,13 +65,8 @@
 import { Component, Vue } from "vue-property-decorator";
 
 import router from "./router";
-import LoremIpsum from "@/components/LoremIpsum.vue";
 
-@Component({
-  components: {
-    LoremIpsum
-  }
-})
+@Component
 export default class App extends Vue {
   private showToolsSubmenu(): boolean {
     return (
@@ -102,5 +96,22 @@ export default class App extends Vue {
 
 .md-app {
   height: 100%;
+}
+
+.md-content {
+  padding: 0 !important;
+  background: #eeeeee !important;
+}
+
+.md-layout {
+  background: #eeeeee !important;
+}
+
+.content-column {
+  // margin-top: 16px;
+  width: 960px !important;
+  padding: 0 16px;
+  height: 100%;
+  background: #fdfdfd;
 }
 </style>

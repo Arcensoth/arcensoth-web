@@ -1,7 +1,11 @@
 <template>
-  <div>
-    <img alt="Vue logo" src="../assets/logo.png" />
-    <HelloWorld msg="Welcome to Your Vue.js + TypeScript App" />
+  <div class="md-layout md-alignment-top-center">
+    <div class="md-layout-item"></div>
+    <div class="content-column md-elevation-2">
+      <img alt="Vue logo" src="../assets/logo.png" />
+      <HelloWorld msg="Welcome to Your Vue.js + TypeScript App" />
+    </div>
+    <div class="md-layout-item"></div>
   </div>
 </template>
 
