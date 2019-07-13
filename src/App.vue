@@ -108,10 +108,18 @@ export default class App extends Vue {
 }
 
 .tool-container {
-  padding: 16px;
+  height: 100%;
 }
 
 .md-empty-state {
   margin: 120px;
+}
+
+.height-100 {
+  height: 100%;
+}
+
+.padding-16 {
+  padding: 16px;
 }
 </style>
